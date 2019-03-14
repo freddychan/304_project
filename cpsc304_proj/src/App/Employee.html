@@ -1,0 +1,19 @@
+<select id="classSelect" onchange="location = this.value;">
+	<option value="Employee.html">Employee</option>
+	<option value="Manager.html">Manager</option>
+	<option value="Customer.html">Customer</option>
+</select>	
+<p><font size ="2"> Find employee:</font></p>
+<form method="POST" action="Employee.html">
+<!--refresh page when submit-->
+	<p><input type="number" size="4">
+	<!--define one variable to pass the value-->
+	<button type="managerButton"
+			onclick="popup()">
+			Submit</button>
+</form>
+<!-- <?php
+$db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = dbhost.ugrad.cs.ubc.ca)(PORT = 1522)))(CONNECT_DATA=(SID=ug)))";
+$db_conn = OCILogon("ora_e1h0b", "a32199135", "$db");
+
+?> -->

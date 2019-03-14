@@ -1,0 +1,32 @@
+<select id="classSelect" onchange="location = this.value;">
+	<option value="Customer.html">Customer</option>
+	<option value="Manager.html">Manager</option>
+	<option value="Employee.html">Employee</option>
+</select>	
+<p><font size="2"> Grab menu:</font></p>
+<form method="POST" action="Customer.html">
+	<p><input type="number" size="4">
+	<button type="managerButton"
+			onclick="popup()">
+			Submit</button>
+</form>
+<p><font size="2"> Grab orders:</font></p>
+<form method="POST" action="Customer.html">
+	<p><input type="number" size="4">
+	<button type="managerButton"
+			onclick="popup()">
+			Submit</button>
+</form>
+<p><font size="2"> Grab account:</font></p>
+<form method="POST" action="Customer.html">
+	<p><input type="number" size="4">
+	<button type="managerButton"
+			onclick="popup()">
+			Submit</button>
+</form>
+
+<!-- <?php
+$db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = dbhost.ugrad.cs.ubc.ca)(PORT = 1522)))(CONNECT_DATA=(SID=ug)))";
+$db_conn = OCILogon("ora_e1h0b", "a32199135", "$db");
+
+?> -->
